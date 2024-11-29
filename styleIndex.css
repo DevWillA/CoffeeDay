@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #4A90E2;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#intro {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px;
+}
+
+
+#menu-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4A90E2;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+
+#menu .menu-item {
+  margin-bottom: 10px;
+  color: white;
+}
+
+
+#encuentro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 35%;
+  color: white;
+}
+
+.gps img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.gps p {
+  margin: 0;
+  color: white;
+}
+
+footer {
+  background-color: #4A90E2;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.logo img {
+  max-width: 100%;
+
+  height: auto;
+
+}

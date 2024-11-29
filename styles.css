@@ -1,0 +1,102 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #4A90E2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header .logo h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilo para el menú */
+#menu {
+  padding: 20px 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Espaciado entre columnas */
+}
+
+#menu h2 {
+  font-size: 1.6em;
+  color: #4A90E2;
+  margin-bottom: 10px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu ul li {
+  font-size: 1.0em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la sección de imagen central */
+#imagen-central {
+  text-align: center;
+  margin: 50px 0;
+}
+
+#imagen-central h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.imagen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-container img {
+  max-width: 90%; /* Se ajusta al tamaño de la pantalla */
+  height: auto; /* Mantiene proporciones */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor de la imagen */
+}
+
+/* Pie de página */
+footer {
+  background-color: #4A90E2;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
